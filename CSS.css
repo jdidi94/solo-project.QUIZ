@@ -1,0 +1,98 @@
+.heartpage { 
+	font-size: 50px;
+text-align: center;
+    align-items: center;
+
+}
+
+h1{
+	font-size: 144pt;
+
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:   0px -6px 0 #212121,  
+                 0px -6px 0 #212121,
+                 0px  6px 0 #212121,
+                 0px  6px 0 #212121,
+                -6px  0px 0 #212121,  
+                 6px  0px 0 #212121,
+                -6px  0px 0 #212121,
+                 6px  0px 0 #212121,
+                -6px -6px 0 #212121,  
+                 6px -6px 0 #212121,
+                -6px  6px 0 #212121,
+                 6px  6px 0 #212121,
+                -6px  18px 0 #212121,
+                 0px  18px 0 #212121,
+                 6px  18px 0 #212121,
+                 0 19px 1px rgba(0,0,0,.1),
+                 0 0 6px rgba(0,0,0,.1),
+                 0 6px 3px rgba(0,0,0,.3),
+                 0 12px 6px rgba(0,0,0,.2),
+                 0 18px 18px rgba(0,0,0,.25),
+                 0 24px 24px rgba(0,0,0,.2),
+                 0 36px 36px rgba(0,0,0,.15);
+
+
+                 
+
+}
+
+
+
+.btn{
+  background: #66CDAA;
+  height: 50px;
+  min-width: 150px;
+
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  margin-left: 13em;
+  margin-top: -1em;
+}
+.myimage{
+  height: 17em;
+  float: right;
+  margin-top: -14em;
+
+}
+ 
+		
+
+
+body{
+
+	
+  background-image: url("universe.jpg");
+  
+	}
+  .earth{
+    font-size: 20px;
+    text-align:left;
+  
+  }
+  .h{
+    margin-top: 0em;
+}
+  
+.p{
+   margin-top: -7em;
+   background-color: white;
+  
+   float: left;
+ }
+
+
+
+
