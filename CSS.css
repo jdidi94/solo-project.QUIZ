@@ -1,12 +1,14 @@
 .heartpage { 
 	font-size: 50px;
 text-align: center;
-    align-items: center;
+align-items: center;
+
+
 
 }
 
-h1{
-	font-size: 144pt;
+h1,h2{
+	font-size: 100pt;
 
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -41,6 +43,7 @@ h1{
 
 
 
+
 .btn{
   background: #66CDAA;
   height: 50px;
@@ -62,10 +65,11 @@ h1{
   margin-top: -1em;
 }
 .myimage{
-  height: 17em;
+  height: 250px;
+
   float: right;
   margin-top: -14em;
-
+  margin-right: 15em;
 }
  
 		
@@ -80,19 +84,80 @@ body{
   .earth{
     font-size: 20px;
     text-align:left;
+    background-color: #00ffff;
+    opacity: 0.5;
   
   }
   .h{
-    margin-top: 0em;
+    margin-top:0em;
 }
   
 .p{
-   margin-top: -7em;
+   margin-top: -3em;
    background-color: white;
-  
-   float: left;
+     font-family: 'Cookie', cursive;
+  float: left;
  }
 
 
 
 
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #E5FFB3;
+  --background-accent: #DBF8A3;
+  --background-accent-2: #BDE66E;
+  --light: #92DE34;
+  --dark: #69BC22;
+  --text: #025600;
+   --shadow-color: #FF9E9E;
+  --shadow-color-light: white;
+}
+.btn1,.btn2, .btn3  {display: block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: var(--light);
+  width: 400px;
+  height: 70px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px var(--light) inset;
+  margin-bottom: 15px;
+ 
+}
+#p1,#p2,#p3,#p4 {
+ display: block;
+ cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: var(--light);
+  background-position: 50% 50%;
+  width: 400px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px var(--light) inset;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+
+
+  
+   
+ 
+
+
+ 
